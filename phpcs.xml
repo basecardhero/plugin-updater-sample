@@ -2,7 +2,6 @@
 <ruleset name="WordPress Coding Standards based custom ruleset for your plugin">
 	<description>Generally-applicable sniffs for WordPress plugins.</description>
 
-	<!-- What to scan -->
 	<file>plugin-updater-sample.php</file>
 	<file>./includes</file>
 	<exclude-pattern>/vendor/</exclude-pattern>
@@ -25,7 +24,7 @@
 	<!-- Rules: WordPress Coding Standards -->
 	<!-- https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards -->
 	<!-- https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/wiki/Customizable-sniff-properties -->
-	<config name="minimum_supported_wp_version" value="5.8" />
+	<config name="minimum_supported_wp_version" value="5.9" />
 
 	<rule ref="WordPress" />
 
