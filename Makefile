@@ -1,10 +1,10 @@
 PLUGIN_DIR_NAME=plugin-updater-sample
 TEST_DB_NAME=plugin_updater_sample_tests
 TEST_DB_USER=root
-TEST_DB_PASSWORD=password
+TEST_DB_PASSWORD=root
 TEST_DB_HOST=127.0.0.1:3306
 RELEASE_PATH=./release
-WORDPRESS_VERSION?=5.8
+WORDPRESS_VERSION?=5.9
 
 help: ## Display help
 	@awk -F ':|##' \
