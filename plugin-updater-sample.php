@@ -6,7 +6,7 @@
  * Update URI: plugin-updater-sample
  * Author: BaseCardHero
  * Author URI: https://basecardhero.com/
- * Version: 0.1.0
+ * Version: 0.2.0
  * Requires at least: 5.9
  * Requires PHP: 7.3
  * Text Domain: plugin-updater-sample
